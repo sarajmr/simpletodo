@@ -37,7 +37,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-There were definitely few challenges but all the help/documentation available online helps a lot. So overall it was lot of on, looking forward to adding additionally features along the way.
+There were definitely few challenges but all the help/documentation available online helps a lot. So overall it was lot of fun, looking forward to adding additionally features along the way.
 
 ## License
 
