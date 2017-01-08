@@ -33,7 +33,7 @@ The following **additional** features are yet to be implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/sarajmr/simpletodo/blob/master/test1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/sarajmr/simpletodo/blob/master/SimpleToDo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
