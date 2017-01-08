@@ -4,7 +4,7 @@
 
 Submitted by: **Saraj Mudigonda**
 
-Time spent: **approx. 10** hours spent in total
+Time spent: **approx. 8-10** hours spent in total
 
 ## User Stories
 
