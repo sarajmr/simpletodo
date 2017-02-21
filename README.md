@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are yet to be implemented:
 
-* [X] Created a variant of the project by using custom adapter, images, dialog frament, date picker
+* [X] Created a variant of the project by using custom adapter, images, dialog frament, date picker, splash screen and updated icon
 
 ## Video Walkthrough 
 
@@ -37,7 +37,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-There were manychallenges but all the help/documentation available online helps a lot. There are lot of known bugs and this is not a fully completed project. So overall it was lot of fun, looking forward to adding additionally features along the way.
+There were manychallenges but all the help/documentation available online helps a lot. There are lot of known bugs and this is not a fully completed project. But overall it was lot of fun, looking forward to adding additionally features along the way.
 
 ## License
 
