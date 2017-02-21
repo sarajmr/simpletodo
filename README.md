@@ -14,17 +14,12 @@ The following **required** functionality was completed in the first simpletodo p
 * [X] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list.
 * [X] User can **persist todo items** and retrieve them properly on app restart
 
-The following **optional** features are implemented:
+The following **optional** features are implemented in this release:
 
-* [ ] Persist the todo items [into SQLite](http://guides.codepath.com/android/Persisting-Data-to-the-Device#sqlite) instead of a text file
 * [X] Improve style of the todo items in the list [using a custom adapter](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
 * [X] Add support for completion due dates for todo items (and display within listview item)
 * [X] Use a [DialogFragment](http://guides.codepath.com/android/Using-DialogFragment) instead of new Activity for editing items
-* [ ] Add support for selecting the priority of each todo item (and display in listview item)
 * [X] Tweak the style improving the UI / UX, play with colors, images or backgrounds
-
-The following **additional** features are yet to be implemented:
-
 * [X] Created a variant of the project by using custom adapter, images, dialog frament, date picker, splash screen and updated icon
 
 ## Video Walkthrough 
