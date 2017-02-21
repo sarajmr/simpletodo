@@ -14,7 +14,7 @@ The following **required** functionality was completed in the first simpletodo p
 * [X] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list.
 * [X] User can **persist todo items** and retrieve them properly on app restart
 
-The following **optional** features are yest to be implemented:
+The following **optional** features are implemented:
 
 * [ ] Persist the todo items [into SQLite](http://guides.codepath.com/android/Persisting-Data-to-the-Device#sqlite) instead of a text file
 * [X] Improve style of the todo items in the list [using a custom adapter](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
