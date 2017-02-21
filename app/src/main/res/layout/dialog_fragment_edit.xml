@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:theme="@style/AppDialogTheme">
+
+    <TextView
+        android:id="@+id/tvFoodDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/ivDialogImage"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorAccent"
+        android:text="Asian Tofu Salad"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/ivDialogImage"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="225dp"
+         android:textColor="@color/colorAccent"
+        android:text="$10.00"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/ivDialogImage"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:scaleType = "centerCrop"
+        android:src="@drawable/asian_tofu_salad" />
+
+    <DatePicker
+        android:id="@+id/simpleDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:calendarViewShown="false"
+        android:spinnersShown="true"
+        android:layout_below="@+id/tvFoodDesc"
+        android:datePickerMode="spinner"/>
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleDatePicker"
+        android:text="Order"
+        android:layout_marginLeft="60dp"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleDatePicker"
+        android:layout_toEndOf="@+id/btnSave"
+        android:layout_toRightOf="@+id/btnSave"
+        android:layout_marginLeft="20dp"
+        android:text="Cancel"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:padding="5dp"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <EditText
+        android:id="@+id/txt_your_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleDatePicker"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        />
+
+</RelativeLayout>

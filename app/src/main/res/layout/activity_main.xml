@@ -10,8 +10,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.sarajmudigonda.mysimpletodo.MainActivity">
 
+    <!--
     <Button
-        android:text="Add Item"
+        android:text="Add Task"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -19,16 +20,29 @@
         android:layout_alignParentEnd="true"
         android:id="@+id/btnAddItem"
         android:onClick="onAddItem"/>
-
+    -->
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_above="@+id/btnAddItem"
         android:id="@+id/lvItems" />
 
+    <ListView
+        android:id="@+id/lvUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:foregroundGravity="center_vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:layout_alignParentTop="true" >
+    </ListView>
+
+    <!--
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,5 +53,8 @@
         android:layout_alignParentStart="true"
         android:id="@+id/etNewItem"
         android:layout_toStartOf="@+id/btnAddItem"
-        android:hint="Enter a new item" />
+        android:hint="Enter a new task" />
+
+        -->
+
 </RelativeLayout>
