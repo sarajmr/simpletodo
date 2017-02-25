@@ -1,20 +1,4 @@
 <resources>
-    <string name="app_name">Food Club</string>
-    <string name="edit_name">Order Food</string>
-    <string name="show">Show Edit Dialog</string>
-
-
-    <!-- weekday_prompt string is the string that initially show in spinner  -->
-    <string name="weekday_prompt">Choose a Week Day</string>
-    <!-- weekday_array is the item list we going to show for selection in spinner -->
-    <string-array name="weekday_array">
-        <item>Saturday</item>
-        <item>Sunday</item>
-        <item>Monday</item>
-        <item>Tuesday</item>
-        <item>Wednesday</item>
-        <item>Thursday</item>
-        <item>Friday</item>
-    </string-array>
-
+    <string name="app_name">Task Manager</string>
+    <string name="edit_name">Edit Task</string>
 </resources>

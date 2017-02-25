@@ -4,35 +4,40 @@
 
 Submitted by: **Saraj Mudigonda**
 
-Time spent: **Many** hours spent in total
+Time spent: **8** hours spent in total
 
 ## User Stories
 
-The following **required** functionality was completed in the first simpletodo project:
+The following **required** functionality is completed:
 
 * [X] User can **successfully add and remove items** from the todo list
 * [X] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list.
 * [X] User can **persist todo items** and retrieve them properly on app restart
 
-The following **optional** features are implemented in this release:
+The following **optional** features are yest to be implemented:
 
-* [X] Improve style of the todo items in the list [using a custom adapter](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
-* [X] Add support for completion due dates for todo items (and display within listview item)
-* [X] Use a [DialogFragment](http://guides.codepath.com/android/Using-DialogFragment) instead of new Activity for editing items
-* [X] Tweak the style improving the UI / UX, play with colors, images or backgrounds
-* [X] Created a variant of the project by using custom adapter, images, dialog frament, date picker, splash screen and updated icon
+* [ ] Persist the todo items [into SQLite](http://guides.codepath.com/android/Persisting-Data-to-the-Device#sqlite) instead of a text file
+* [ ] Improve style of the todo items in the list [using a custom adapter](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
+* [ ] Add support for completion due dates for todo items (and display within listview item)
+* [ ] Use a [DialogFragment](http://guides.codepath.com/android/Using-DialogFragment) instead of new Activity for editing items
+* [ ] Add support for selecting the priority of each todo item (and display in listview item)
+* [ ] Tweak the style improving the UI / UX, play with colors, images or backgrounds
+
+The following **additional** features are yet to be implemented:
+
+* [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/sarajmr/simpletodo/blob/master/SimpleToDo-Updated.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/sarajmr/simpletodo/blob/master/SimpleToDo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-There were manychallenges but all the help/documentation available online helps a lot. There are lot of known bugs and this is not a fully completed project. But overall it was lot of fun, looking forward to adding additionally features along the way.
+There were definitely few challenges but all the help/documentation available online helps a lot. So overall it was lot of fun, looking forward to adding additionally features along the way.
 
 ## License
 
